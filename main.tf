@@ -20,6 +20,6 @@ resource "aws_instance" "WebServer" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "AWSEC2"
   }
 }
